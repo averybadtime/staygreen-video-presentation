@@ -681,6 +681,10 @@ jQuery(function($) {
         gamba.home_slider();
         gamba.datepick();
         gamba.reply();
+
+        $(".video-embed").addClass('show-video');
+                $(".video-button-close").addClass('show-video');
+                $(".video-embed")[0].src;
     });
 
     /*=====  End of INIT FUNCTIONS  ======*/
