@@ -165,7 +165,7 @@ jQuery(function($) {
             $(".video-button-play ").on('click', function(event) {
                 $(".video-embed").addClass('show-video');
                 $(".video-button-close").addClass('show-video');
-                $(".video-embed")[0].src += "&autoplay=1";
+                $(".video-embed")[0].src;
                 event.preventDefault();
             });
 
